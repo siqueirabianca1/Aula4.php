@@ -11,6 +11,9 @@
         td{
             border: 1px solid black; 
         }
+        img{
+            width: 100px;
+        }
 
     </style>
 </head>
@@ -20,20 +23,17 @@
 <?php
 echo "<h1> Salada de fruta</h1>";
 
-
-echo "<h1> Tabela de 1 a 10 em php</php>";
 echo "<table><tr>";
 for ($x=1; $x<=10;$x++){
-echo "<td>$x</td>";
+echo "<td><img src ='img/$x.jpg'></td>";
 
 }
 echo "</tr></table>";
 
 
 
-
-
 ?>
-    
+
+
 </body>
 </html>
